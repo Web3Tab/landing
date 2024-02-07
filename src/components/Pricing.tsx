@@ -128,51 +128,52 @@ export function Pricing() {
             for everyone.
           </h2>
           <p className="mt-4 text-lg text-slate-400">
-            It doesn’t matter what size your business is, our software won’t
-            work well for you.
+            It doesn’t matter what size your business is, our software will change the way you operate.
           </p>
         </div>
         <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
           <Plan
-            name="Starter"
-            price="$9"
-            description="Good for anyone who is self-employed and just getting started."
+            name="Free"
+            price="$0"
+            description="Good for anyone who is keen to understand his crypto tax issues better."
             href="/register"
             features={[
-              'Send 10 quotes and invoices',
-              'Connect up to 2 bank accounts',
-              'Track up to 15 expenses per month',
-              'Manual payroll support',
-              'Export up to 3 reports',
+              'Up to 3 countries',
+              'Ask the bot basic questions on incorporation in 3 countries',
+              'Ask the bot basic questions on taxes in 3 countries',
+              'Setup your company profile',
+              'Setup your private profile',
+
             ]}
           />
           <Plan
             featured
-            name="Small business"
-            price="$15"
-            description="Perfect for small / medium sized businesses."
+            name="Premium"
+            price="$To be announced"
+            description="Perfect for founders/investors/traders who are looking to find a permanent solution to their tax situation."
             href="/register"
             features={[
-              'Send 25 quotes and invoices',
-              'Connect up to 5 bank accounts',
-              'Track up to 50 expenses per month',
-              'Automated payroll support',
-              'Export up to 12 reports',
-              'Bulk reconcile transactions',
-              'Track in multiple currencies',
+              'Unlimited countries',
+              'Ask advanced questions on incorporation and taxes in all countries',
+              'Manage multiple company/private profiles',
+              'Customized tax and incorporation advice',
+              'Permanent monitoring of your tax situation',
+              'Access to our contract library with documents from over 40 juridictions',
+              'Access to our tax and incorporation experts',
+              'Access to specialized tax and incorporation lawyers',
             ]}
           />
           <Plan
             name="Enterprise"
-            price="$39"
-            description="For even the biggest enterprise companies."
+            price="On request"
+            description="For full API access and custom solutions."
             href="/register"
             features={[
-              'Send unlimited quotes and invoices',
-              'Connect up to 15 bank accounts',
-              'Track up to 200 expenses per month',
-              'Automated payroll support',
-              'Export up to 25 reports, including TPS',
+              'Get access to our Web3 Tax Bot API',
+              'Use the tax bot in your own application',
+              'Easily integrate Web3 Tax Bot through our Widget',
+              'Access to our contract library with documents from over 40 juridictions',
+              'Dedicated support team',
             ]}
           />
         </div>
