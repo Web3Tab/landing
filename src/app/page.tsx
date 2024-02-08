@@ -16,7 +16,6 @@ export default function Home() {
         <Features />
         <CallToAction />
         <Pricing />
-        <Faqs />
       </main>
       <Footer />
     </>
