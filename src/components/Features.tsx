@@ -43,13 +43,13 @@ export default function Features() {
                         {features.map((feature) => (
                             <div key={feature.name} className="flex flex-col">
                                 <dt className="flex items-center gap-x-3 text-base font-semibold leading-7 text-white">
-                                    <feature.icon className="h-10 w-10 flex-none text-white bg-indigo-400 p-2 rounded-md" aria-hidden="true" />
+                                    <feature.icon className="h-10 w-10 flex-none text-white bg-blue-600 p-2 rounded-md" aria-hidden="true" />
                                     {feature.name}
                                 </dt>
                                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-300">
                                     <p className="flex-auto">{feature.description}</p>
                                     <p className="mt-6">
-                                        <a href={feature.href} className="text-sm font-semibold leading-6 text-indigo-400">
+                                        <a href={feature.href} className="text-sm font-semibold leading-6 text-blue-600">
                                             Learn more <span aria-hidden="true">→</span>
                                         </a>
                                     </p>

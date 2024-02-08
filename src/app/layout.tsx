@@ -7,7 +7,7 @@ import { type Metadata } from 'next'
 export const metadata: Metadata = {
   title: {
     template: '%s - Web3 AI Bot',
-    default: 'Web3 AI Bot - Accounting made simple for small businesses',
+    default: 'Web3 AI Bot - Web3 regulation made simple for everyone',
   },
   description:
     'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
