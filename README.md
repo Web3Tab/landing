@@ -1,4 +1,6 @@
-# Web3 AI
+# Web3 Tax AI Bot
+
+Web3 Tab is the short form of Wbe3 Tax AI bot.
 
 ## Getting started
 
