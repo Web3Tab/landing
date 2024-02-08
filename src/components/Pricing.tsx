@@ -138,9 +138,8 @@ export function Pricing() {
             description="Good for anyone who is keen to understand his crypto tax issues better."
             href="/register"
             features={[
-              'Up to 3 countries',
-              'Ask the bot basic questions on incorporation in 3 countries',
-              'Ask the bot basic questions on taxes in 3 countries',
+              'Ask the bot basic questions on incorporation',
+              'Ask the bot basic questions on taxes',
               'Setup your company profile',
               'Setup your private profile',
 
@@ -153,7 +152,6 @@ export function Pricing() {
             description="Perfect for founders/investors/traders who are looking to find a permanent solution to their tax situation."
             href="/register"
             features={[
-              'Unlimited countries',
               'Ask advanced questions on incorporation and taxes in all countries',
               'Manage multiple company/private profiles',
               'Customized tax and incorporation advice',
