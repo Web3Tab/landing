@@ -1,4 +1,3 @@
-import Image from 'next/image'
 
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
@@ -6,7 +5,7 @@ import { Container } from '@/components/Container'
 
 export function Hero() {
   return (
-    <Container className="pb-16 pt-20 text-center lg:pt-32">
+    <Container className="pb-32 pt-16 text-center lg:pt-32">
       <h1 className="mx-auto max-w-4xl font-display text-5xl font-medium tracking-tight text-slate-900 sm:text-7xl">
         Web3 legal<br />{' '}
         <span className="relative whitespace-nowrap text-blue-600">
